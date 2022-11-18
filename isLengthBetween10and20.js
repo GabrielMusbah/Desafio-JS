@@ -4,9 +4,5 @@
 function isLengthBetween10and20(val)
 {
     //uso o lenght para pegar o tamanho e valido usando > e < valido se é maior e menor e uso o && pra definir que ambas tem que ser true
-    if (val.length > 10 && val.length < 20){
-        return true;
-    } else {
-        return false;
-    }
+    return (val.length > 10 && val.length < 20);
 }

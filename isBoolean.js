@@ -3,10 +3,5 @@
 function isBoolean(val)
 {
     // usando o tpeof(val) se o retorno for boolena retorna true, se não false
-    if (typeof(val) == 'boolean'){
-        return true;
-    } else {
-        return false;
-    }
+    return (typeof(val) == 'boolean');
 }
-

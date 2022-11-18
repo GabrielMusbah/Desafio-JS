@@ -3,9 +3,5 @@
 function isBetween10and20(val)
 {
     //usando 2 funçoes como validacao ele so funciona se ambas darem true
-    if (isGreaterThan10(val) && isLowerThan20(val)){
-        return true;
-    } else {
-        return false;
-    }
+    return (isGreaterThan10(val) && isLowerThan20(val))
 }

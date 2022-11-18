@@ -2,12 +2,6 @@
 
 function biggestNumber(val1, val2)
 {
-    //usa > < pra ver qual os 2 valores é maior e se forem iguais isso é retornado tambem
-    if (val1 > val2){
-        return val1;
-    } else if (val1 < val2){
-        return val2;
-    } else {
-        return 'numeros iguais!'
-    }
+    //A Math.max retorna o maior valor entre os 2
+    return Math.max(val1,val2);
 }

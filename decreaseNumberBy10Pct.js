@@ -3,5 +3,5 @@
 function decreaseNumberBy10Pct(val)
 {
     //apenas retorno o valor de val - 10% desse valor ((val / 100) * 10)
-    return val - ((val / 100) * 10)
+    return val - ((val / 100) * 10);
 }

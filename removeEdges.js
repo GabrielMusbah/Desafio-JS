@@ -3,8 +3,5 @@
 function removeEdges(text)
 {
     // a funcao .substring(), retira caracteres da var text, tiro a primera (1) e a ultima text.lenght (devolve o tamanho total) - 1
-    var texto = text.substring(1, text.length - 1); 
-
-    return texto; //retorna o resultado
+    return text.substring(1, text.length - 1);; //retorna o resultado
 }
-

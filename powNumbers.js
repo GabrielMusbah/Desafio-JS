@@ -1,4 +1,5 @@
-//Faça uma função chamada powNumbers que recebe dois parâmetros chamados base e exp do tipo number e retorna um number com a exponenciação dos parâmetros
+//Faça uma função chamada powNumbers que recebe dois parâmetros chamados base e 
+//exp do tipo number e retorna um number com a exponenciação dos parâmetros
 
 function powNumbers(val1, val2)
 {
@@ -10,6 +11,5 @@ function powNumbers(val1, val2)
         //em todo loop, o val é multiplicado pela base
         val *= val1;
     }
-
     return val;
 }

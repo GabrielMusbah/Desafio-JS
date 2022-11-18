@@ -3,9 +3,5 @@
 function isLowerThan20(val)
 {
     //usa o < pra saber se val é menor que 20
-    if (val < 20){
-        return true;
-    } else {
-        return false;
-    }
+    return (val < 20);
 }

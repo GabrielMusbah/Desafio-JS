@@ -2,18 +2,7 @@
 
 function cleanExtraSpaces(val)
 {
-    //gera uma var string vazia
-    var text = '';
-    //salva a var (val) em uma lista separando os as palavras por espaco
-    var textSplit = val.split(' ');
-
-    //gerei um loop que roda o indice 0 ate o tamanho total do array
-    for(let i = 0; i < textSplit.length; i++){
-        //se o texto do indice for diferente de '' ele é adionado ao text
-        if (textSplit[i] != ''){
-            text = text + ' ' + textSplit[i];
-        }
-    }
-    //retorna o resultado
-    return text;
+    //o split separa os a string, o filter devolve apenas os valores 'validos' os “falsy values” -> string vazia são retirados e o join junta em uma string
+    return val.split(' ').filter(function (i) {return i;}).join(' ');
 }
+

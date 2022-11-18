@@ -3,9 +3,5 @@
 function isNull(val) 
 {
     //so testo se é null por comparação ==
-    if (val == null){
-        return true;
-    } else {
-        return false;
-    }
+    return (val == null);
 }

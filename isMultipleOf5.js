@@ -3,9 +3,5 @@
 function isMultipleOf5(val)
 {
     //usando o resto %, verifico se val / 5 tem resto, se nao tiver é multiplo
-    if (val % 5 == 0){
-        return true;
-    } else {
-        return false;
-    }
+    return (val % 5 == 0);
 }

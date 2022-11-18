@@ -4,9 +4,5 @@
 function isLengthGreaterThan5(val)
 {
     //usando o .lenght pego o tamanho do val e uso o > pra saber se é maior que 5
-    if (val.length > 5){
-        return true;
-    } else {
-        return false;
-    }
+    return (val.length > 5); 
 }

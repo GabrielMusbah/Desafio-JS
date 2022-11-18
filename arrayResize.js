@@ -1,4 +1,5 @@
-//Faça uma função chamada arrayResize que recebe um parâmetro chamado list do tipo array e outro parâmetro chamado size do tipo number e retorna um array contendo os primeiros itens do parâmetro list limitados pelo tamanho do parâmetro size
+//Faça uma função chamada arrayResize que recebe um parâmetro chamado list do tipo array e 
+//outro parâmetro chamado size do tipo number e retorna um array contendo os primeiros itens do parâmetro list limitados pelo tamanho do parâmetro size
 
 function arrayResize(list, size)
 {

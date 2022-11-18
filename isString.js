@@ -3,9 +3,5 @@
 function isString(val)
 {
     //usando typeof(val) tenho o tipo da varivel, ai comparo pra ver se é 'string' ou nao
-    if (typeof(val) == 'string'){
-        return true;
-    } else {
-        return false;
-    }
+    return (typeof(val) == 'string');
 }

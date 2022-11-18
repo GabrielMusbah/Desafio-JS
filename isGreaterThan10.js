@@ -4,9 +4,5 @@
 function isGreaterThan10(val)
 {
     //usando um > retorno true se for maior que 10 e false se nao for
-    if (val > 10){
-        return true;
-    } else {
-        return false;
-    }
+    return (val > 10);
 }

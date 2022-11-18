@@ -3,9 +3,5 @@
 function isNumber(val)
 {
     //usando typeof(val) tenho o tipo da varivel, ai comparo pra ver se é 'number' ou nao
-    if (typeof(val) === "number"){
-        return true;
-    } else {
-        return false;
-    }d
+    return (typeof(val) === "number");
 }

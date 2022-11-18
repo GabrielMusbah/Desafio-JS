@@ -2,12 +2,6 @@
 
 function smallestNumber(val1, val2)
 {
-    //compara os 2 valores com > e <, pra saber qual é maior e devolve se ambos foram iguais
-    if (val1 < val2){
-        return val1;
-    } else if (val1 > val2){
-        return val2;
-    } else {
-        return 'numeros iguais!'
-    }
+    //usando Math.min(val1,val2) devolve o menor numero
+    return Math.min(val1,val2);
 }

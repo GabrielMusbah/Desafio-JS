@@ -3,9 +3,5 @@
 function isGreaterThan100AndMultipleOf3(val)
 {
     //usando > e =, com uso de && para definir que ambas validacoes devem ter resultado true
-    if (val > 100 && val % 3 == 0){
-        return true;
-    } else {
-        return false;
-    }
+    return (val > 100 && val % 3 == 0);
 }

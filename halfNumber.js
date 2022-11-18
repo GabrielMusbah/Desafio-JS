@@ -2,6 +2,6 @@
 
 function halfNumber(val)
 {
-    //reutilizo a função de dividir, metada de val -> val / 2
-    return divNumbers(val, 2);    
+    //dividi val / 2 -> metade
+    return val / 2;  
 }

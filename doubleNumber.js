@@ -2,6 +2,6 @@
 
 function doubleNumber(val)
 {
-    //reutilizando a funcao mulNumbers que realiza a multiplicação de 2 valores, uso o val e 2 (2 * n -> dobro do n)
-    return mulNumbers(val, 2);
+    //retorna o dobro do valor -> val * 2
+    return val * 2;
 }

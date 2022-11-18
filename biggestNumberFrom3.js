@@ -2,14 +2,6 @@
 
 function biggestNumberFrom3(val1, val2, val3)
 {
-    // usando > < e o operador && (and) conseguimos qual numero seria o maior entre os 3 e retorna, se os 3 valores forem iguais isso é devolvido ao usuario
-    if (val1 > val2 && val1 > val3){
-        return val1;
-    } else if (val2 > val1 && val2 > val3){
-        return val2;
-    } else if (val3 > val1 && val3 > val2){
-        return val3;
-    } else {
-        return 'Numeros iguais!'
-    }
+    //A Math.max retorna o maior valor entre os 3
+    return Math.max(val1,val2,val3);
 }
