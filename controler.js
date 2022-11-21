@@ -8,8 +8,6 @@ import { getArrayRange } from "./array/get-array-range.js";
 import { groupByInitials } from "./array/group-by-initials.js";
 import { groupByOddEven } from "./array/group-by-odd-even.js";
 
-console.log(arrayAvg([1,2]))
-
 //boolen
 
 import { booleanResponse } from "./boolean/boolean-response.js";
