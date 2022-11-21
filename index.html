@@ -4,11 +4,454 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <script type="text/javascript" src="isNull.js"></script><script type="text/javascript" src="isBoolean.js"></script><script type="text/javascript" src="booleanResponse.js"></script><script type="text/javascript" src="invertBoolean.js"></script><script type="text/javascript" src="isNumber.js"></script><script type="text/javascript" src="isGreaterThan10.js"></script><script type="text/javascript" src="isLowerThan20.js"></script><script type="text/javascript" src="isBetween10and20.js"></script><script type="text/javascript" src="isMultipleOf2.js"></script><script type="text/javascript" src="isMultipleOf5.js"></script><script type="text/javascript" src="isEven.js"></script><script type="text/javascript" src="isGreaterThan100AndMultipleOf3.js"></script><script type="text/javascript" src="invertSign.js"></script><script type="text/javascript" src="isPositiveAndNegative.js"></script><script type="text/javascript" src="sumNumbers.js"></script><script type="text/javascript" src="subNumbers.js"></script><script type="text/javascript" src="mulNumbers.js"></script><script type="text/javascript" src="divNumbers.js"></script><script type="text/javascript" src="powNumbers.js"></script><script type="text/javascript" src="halfNumber.js"></script><script type="text/javascript" src="doubleNumber.js"></script><script type="text/javascript" src="number50Pct.js"></script><script type="text/javascript" src="increaseNumberBy10Pct.js"></script><script type="text/javascript" src="decreaseNumberBy10Pct.js"></script><script type="text/javascript" src="biggestNumber.js"></script><script type="text/javascript" src="smallestNumber.js"></script><script type="text/javascript" src="biggestNumberFrom3.js"></script><script type="text/javascript" src="isPrime.js"></script><script type="text/javascript" src="isString.js"></script><script type="text/javascript" src="isLengthGreaterThan5.js"></script><script type="text/javascript" src="isLengthLowerThan10.js"></script><script type="text/javascript" src="isLengthBetween10and20.js"></script><script type="text/javascript" src="concatString.js"></script><script type="text/javascript" src="countVowels.js"></script><script type="text/javascript" src="repeatString.js"></script><script type="text/javascript" src="shuffleString.js"></script><script type="text/javascript" src="wordReverse.js"></script><script type="text/javascript" src="extractNumber.js"></script><script type="text/javascript" src="cleanExtraSpaces.js"></script><script type="text/javascript" src="stringWrap.js"></script><script type="text/javascript" src="removeEdges.js"></script><script type="text/javascript" src="stringInitials.js"></script><script type="text/javascript" src="arrayResize.js"></script><script type="text/javascript" src="getArrayRange.js"></script><script type="text/javascript" src="arraySum.js"></script><script type="text/javascript" src="arrayAvg.js"></script><script type="text/javascript" src="filterOddNumbers.js"></script><script type="text/javascript" src="groupByOddEven.js"></script><script type="text/javascript" src="groupByInitials.js"></script><script type="text/javascript" src="currentDate.js"></script><script type="text/javascript" src="isLeapYear.js"></script>
-</head>
+    <title>Desafio JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="icone.png"/>
+    </head>
 <body>
+    <main>
+        <article>
+            <section>
+                <h1>Desafio JavaScript</h1>
+                <h2>Regras</h2>
+                <ul>
+                    <li>Coloque o enunciado da questão no início de cada arquivo js como um comentário;</li>    
+                    <li>Nomeie corretamente o nome das funções e dos parâmetros de acordo com o enunciado;</li>    
+                    <li>As funções devem ser exportadas usando o comando <span class="contrast">export</span>;</li>    
+                    <li>Cada solução deve ficar em um arquivo js nomeado com o nome da função no formado kebab-case;</li>    
+                    <li>Os arquivos devem ser salvos em diretórios separados por tipo (null, boolean, etc...), assim como neste documento;</li>    
+                    <li>Tente reaproveitar funções quando for possível;</li>    
+                    <li>Lembre de identar corretamente o código;</li>    
+                    <li>Faça comentários linha a linha explicando o que cada linha do seu código está fazendo;</li>    
+                    <li>A solução final deve ser entregue em um zip, ou em um repositorio do github;</li>    
+                </ul>
 
+                <p class="p-title">A estrutura do projeto deve seguir esse padrão:</p>
+
+                <section>
+                    <p>null/</p>
+                    <p><span class="space">is-null.js</span></p>
+                    <p>boolean/</p>
+                    <p><span class="space">is-boolean.js</span></p>
+                    <p><span class="space">boolean-response.js</span></p>
+                    <p>number/</p>
+                    <p><span class="space">is-number.js</span></p>
+                    <p><span class="space">is-between-10-and-20.js</span></p>
+                </section>
+
+                <p class="p-title">O arquivo js deve seguir esse padrão:</p>
+
+                <section>
+                    <p class="comment">/**/</p>
+                    <p class="comment"> * Faça uma função chamada `isNull` que recebe um parâmetro</p>
+                    <p class="comment"> * chamado `val` e retorna um `boolean` indicando se é nulo</p>
+                    <p class="comment"> */</p>
+                    <p><span class="text-red">export function </span><span class="text-pink">isNull</span>(val){</p>
+                    <p><span class="space"><span class="text-red">return</span></span><span class="comment"> // solution</span></p>
+                    <p>}</p>
+                </section>
+
+                <h1>Questões</h1>
+
+                <h2>> Null</h2>
+
+                <h3>isNull</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isNull</span> que recebe um parâmetro chamado <span class="contrast">val</span> e retorna um <span class="contrast">boolean</span> indicando se é nulo;</p>
+
+                <section>
+                    <p class="text-blue">null    => true</p>
+                    <p class="text-blue">0       => false</p>
+                    <p class="text-blue">1       => false</p>
+                    <p class="text-blue">''      => false</p>
+                </section>
+
+                <h2>> Boolean</h2>
+
+                <h3>isBoolean</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isBoolean</span> que recebe um parâmetro chamado <span class="contrast">val</span> e retorna um <span class="contrast">boolean</span> indicando se o parâmetro é do tipo boolean;</p>
+
+                <section>
+                    <p class="text-blue">true    => true</p>
+                    <p class="text-blue">false   => true</p>
+                    <p class="text-blue">1       => false</p>
+                    <p class="text-blue">null    => false</p>
+                </section>
+
+                <h3>booleanResponse</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">booleanResponse</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">boolean</span> e retorna uma <span class="contrast">string</span> com valor <span class="contrast">sim</span> para true e <span class="contrast">não</span> para false;</p>
+
+                <section>
+                    <p class="text-blue">true    => 'sim'</p>
+                    <p class="text-blue">false   => 'não'</p>
+                </section>
+
+                <h3>invertBoolean</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">invertBoolean</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">boolean</span> e retorna o boolean invertido;</p>
+                
+                <section>
+                    <p class="text-blue">true    => false</p>
+                    <p class="text-blue">false   => true</p>
+                </section>
+
+                <h2>> Number</h2>
+
+                <h3>isNumber</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isNumber</span> que recebe um parâmetro chamado <span class="contrast">val</span> e retorna um <span class="contrast">boolean</span> indicando se o parâmetro é do tipo <span class="contrast">number</span>;</p>
+
+                <section>
+                    <p class="text-blue">1       => true</p>
+                    <p class="text-blue">0       => true</p>
+                    <p class="text-blue">true    => false</p>
+                    <p class="text-blue">null    => false</p>
+                    <p class="text-blue">'1'     => false</p>
+                </section>
+
+                <h3>isGreaterThan10</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isGreaterThan10</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">boolean</span> indicando se o número é maior que 10;</p>
+
+                <section>
+                    <p class="text-blue">15 => true</p>
+                    <p class="text-blue">05 => false</p>
+                    <p class="text-blue">10 => false</p>
+                </section>
+
+                <h3>isLowerThan20</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isLowerThan20</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">boolean</span> indicando se o número é menor que 20;</p>
+
+                <section>
+                    <p class="text-blue">15 => true</p>
+                    <p class="text-blue">25 => false</p>
+                    <p class="text-blue">20 => false</p>
+                </section>
+
+                <h3>isBetween10and20</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isBetween10and20</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">boolean</span> indicando se o número é maior que 10 e menor que 20;</p>
+
+                <section>
+                    <p class="text-blue">15 => true</p>
+                    <p class="text-blue">05 => false</p>
+                    <p class="text-blue">20 => false</p>
+                    <p class="text-blue">25 => false</p>
+                </section>
+
+                <h3>isMultipleOf2</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isMultipleOf2</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">boolean</span> indicando se o número é um multiplo de 2;</p>
+
+                <section>
+                    <p class="text-blue">02 => true</p>
+                    <p class="text-blue">08 => true</p>
+                    <p class="text-blue">03 => false</p>
+                    <p class="text-blue">05 => false</p>
+                </section>
+
+                <h3>isMultipleOf5</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isMultipleOf5</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">boolean</span> indicando se o número é um múltiplo de 5;</p>
+
+                <section>
+                    <p class="text-blue">05 => true</p>
+                    <p class="text-blue">80 => true</p>
+                    <p class="text-blue">47 => false</p>
+                    <p class="text-blue">52 => false</p>
+                </section>
+
+                <h3>isEven</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isEven</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">boolean</span> indicando se o parâmetro é par;</p>
+
+                <section>
+                    <p class="text-blue">5 => false</p>
+                    <p class="text-blue">2 => true</p>
+                </section>
+
+                <h3>isGreaterThan100AndMultipleOf3</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isGreaterThan100AndMultipleOf3</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">boolean</span> indicando se o numero é maior que 100 e também é um múltiplo de 3;</p>
+
+                <section>
+                    <p class="text-blue">300 => true</p>
+                    <p class="text-blue">306 => true</p>
+                    <p class="text-blue">030 => false</p>
+                    <p class="text-blue">036 => false</p>
+                </section>
+
+                <h3>invertSign</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">invertSign</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> que é o próprio parâmetro com o sinal de positivo/negativo invertido;</p>
+
+                <section>
+                    <p class="text-blue">1   => -1</p>
+                    <p class="text-blue">-2  => 2</p>
+                    <p class="text-blue">0   => 0</p>
+                </section>
+
+                <h3>isPositiveAndNegative</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isPositiveAndNegative</span> que recebe dois parâmetros chamados <span class="contrast">val1</span> e <span class="contrast">val2</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">boolean</span> true caso um número for negativo e o outro positivo, não importa a ordem;</p>
+
+                <section>
+                    <p class="text-blue">(-1, 2)     => true</p>
+                    <p class="text-blue">(7, -5)     => true</p>
+                    <p class="text-blue">(2, 5)      => false</p>
+                    <p class="text-blue">(-5, -5)    => false</p>
+                </section>
+
+                <h3>sumNumbers</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">sumNumbers</span> que recebe dois parâmetros chamados <span class="contrast">val1</span> e <span class="contrast">val2</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> com a soma dos parâmetros;</p>
+
+                <section>
+                    <p class="text-blue">(2, 4)     => 6</p>
+                    <p class="text-blue">(2, -2)    => 0</p>
+                </section>
+
+                <h3>subNumbers</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">subNumbers</span> que recebe dois parâmetros chamados <span class="contrast">val1</span> e <span class="contrast">val2</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> com a subtração dos parâmetros;</p>
+
+                <section>
+                    <p class="text-blue">(5, 2)     => 3</p>
+                    <p class="text-blue">(2, -3)    => 5</p>
+                </section>
+
+                <h3>mulNumbers</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">mulNumbers</span> que recebe dois parâmetros chamados <span class="contrast">val1</span> e <span class="contrast">val2</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> com a multiplicação dos parâmetros;</p>
+
+                <section>
+                    <p class="text-blue">(2, 4)     => 8</p>
+                </section>
+
+                <h3>divNumbers</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">divNumbers</span> que recebe dois parâmetros chamados <span class="contrast">val1</span> e <span class="contrast">val2</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> com a divisão dos parâmetros;</p>
+
+                <section>
+                    <p class="text-blue">(10, 5)     => 2</p>
+                </section>
+
+                <h3>powNumbers</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">powNumbers</span> que recebe dois parâmetros chamados <span class="contrast">base</span> e <span class="contrast">exp</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> com a exponenciação dos parâmetros;</p>
+
+                <section>
+                    <p class="text-blue">(2, 2)     => 4</p>
+                    <p class="text-blue">(2, 5)     => 32</p>
+                </section>
+
+                <h3>halfNumber</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">halfNumber</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> com a metade do valor do parâmetro;</p>
+
+                <section>
+                    <p class="text-blue">10  => 5</p>
+                </section>
+
+                <h3>doubleNumber</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">doubleNumber</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> com o dobro do valor do parâmetro;</p>
+
+                <section>
+                    <p class="text-blue">2   => 4</p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>number50Pct</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">number50Pct</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> equivalente a 50% do valor do parâmetro;</p>
+
+                <section>
+                    <p class="text-blue">8   => 4</p>
+                </section>
+
+                <h3>increaseNumberBy10Pct</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">increaseNumberBy10Pct</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> equivalente ao valor do parâmetro + 10%;</p>
+
+                <section>
+                    <p class="text-blue">10      => 11</p>
+                    <p class="text-blue">100     => 110</p>
+                    <p class="text-blue">150     => 165</p>
+                    <p class="text-blue">200     => 220</p>
+                </section>
+
+                <h3>decreaseNumberBy10Pct</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">decreaseNumberBy10Pct</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> equivalente ao valor do parâmetro - 10%;</p>
+
+                <section>
+                    <p class="text-blue">10      => 9</p>
+                    <p class="text-blue">100     => 90</p>
+                    <p class="text-blue">150     => 135</p>
+                    <p class="text-blue">200     => 180</p>
+                </section>
+
+                <h3>biggestNumber</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">biggestNumber</span> que recebe dois parâmetros chamados <span class="contrast">val1</span> e <span class="contrast">val2</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> que é o parâmetro de maior valor;</p>
+
+                <section>
+                    <p class="text-blue">(10, 15)     => 15</p>
+                    <p class="text-blue">(30, 20)     => 30</p>
+                    <p class="text-blue">(12, 12)     => 12</p>
+                </section>
+
+                <h3>smallestNumber</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">smallestNumber</span> que recebe dois parâmetros chamados <span class="contrast">val1</span> e <span class="contrast">val2</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> que é o parâmetro de menor valor;</p>
+
+                <section>
+                    <p class="text-blue">(10, 15)     => 10</p>
+                    <p class="text-blue">(60, 20)     => 20</p>
+                    <p class="text-blue">(50, 50)     => 50</p>
+                </section>
+
+                <h3>biggestNumberFrom3</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">biggestNumberFrom3</span> que recebe três parâmetros chamados <span class="contrast">val1</span>, <span class="contrast">val2</span> e <span class="contrast">val3</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">number</span> que é o parâmetro de maior valor;</p>
+
+                <section>
+                    <p class="text-blue">(10, 15, 20) => 20</p>
+                    <p class="text-blue">(30, 10, 20) => 30</p>
+                    <p class="text-blue">(30, 40, 10) => 40</p>
+                </section>
+
+                <h3>isPrime</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isPrime</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">boolean</span> indicando se o parâmetro é um número primo;</p>
+
+                <section>
+                    <p class="text-blue">0       => false</p>
+                    <p class="text-blue">1       => false</p>
+                    <p class="text-blue">2       => true</p>
+                    <p class="text-blue">5       => true</p>
+                </section>
+
+                <h2>> String</h2>
+
+                <h3>isString</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>isLengthGreaterThan5</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>isLengthLowerThan10</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>isLengthBetween10and20</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>concatString</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>countVowels</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>repeatString</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>shuffleString</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>wordReverse</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>extractNumber</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>cleanExtraSpaces</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>stringWrap</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>removeEdges</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+                <h3>stringInitials</h3>
+                <p class="p-title"></p>
+
+                <section>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                    <p class="text-blue"></p>
+                </section>
+
+            </section>
+        </article>
+    </main>
 </body>
 </html>
