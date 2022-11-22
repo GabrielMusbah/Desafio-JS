@@ -311,148 +311,217 @@
                 <h2>> String</h2>
 
                 <h3>isString</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isString</span> que recebe um parâmetro chamado <span class="contrast">val</span> e retorna um <span class="contrast">boolean</span> indicando se o parâmetro é do tipo string;</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">'teste'     => true</p>
+                    <p class="text-blue">'1'         => true</p>
+                    <p class="text-blue">1           => false</p>
+                    <p class="text-blue">true        => false</p>
+                    <p class="text-blue">null        => false</p>
                 </section>
 
                 <h3>isLengthGreaterThan5</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isLengthGreaterThan5</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">string</span> e retorna um boolean indicando se o comprimento da string é maior que 5;</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">'testes'     => true</p>
+                    <p class="text-blue">'teste'      => false</p>
+                    <p class="text-blue">'ok'         => false</p>
                 </section>
 
                 <h3>isLengthLowerThan10</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isLengthLowerThan10</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">string</span> e retorna um <span class="contrast">boolean</span> indicando se o comprimento da string é menor que 10;</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">'test'         => true</p>
+                    <p class="text-blue">'test-lower'   => false</p>
+                    <p class="text-blue">'test-greater' => false</p>
                 </section>
 
                 <h3>isLengthBetween10and20</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isLengthBetween10and20</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">string</span> e retorna um <span class="contrast">boolean</span> indicando se o comprimento da string é maior que 10 e menor que 20;</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">'testes'       => false</p>
+                    <p class="text-blue">'test-lower'   => false</p>
+                    <p class="text-blue">'test-greater' => true</p>
                 </section>
 
                 <h3>concatString</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">concatString</span> que recebe dois parâmetros chamados <span class="contrast">val1</span> e <span class="contrast">val2</span> do tipo <span class="contrast">string</span> e retorna uma <span class="contrast">string</span> com a concatenação dos dois parâmetros separados por um espaço;</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">('test', 'ok')  => 'test ok';</p>
+                    <p class="text-blue">('test', ' ')   => 'test  ';</p>
                 </section>
 
                 <h3>countVowels</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">countVowels</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">string</span> e retorna um <span class="contrast">number</span> com a contagem das vogais;</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">'jpg'       => 0</p>
+                    <p class="text-blue">'ok'        => 1</p>
+                    <p class="text-blue">'Plantae'   => 3</p>
                 </section>
 
                 <h3>repeatString</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">repeatString</span> que recebe um parâmetro chamado <span class="contrast">text</span> do tipo <span class="contrast">string</span> e uma chamada <span class="contrast">n</span> do tipo <span class="contrast">number</span> e retorna uma <span class="contrast">string</span> que é o parâmetro <span class="contrast">text</span> repetido <span class="contrast">n</span> vezes;</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">('ok', 4)       => 'okokokok'</p>
+                    <p class="text-blue">('test', 2)     => 'testtest'</p>
                 </section>
 
                 <h3>shuffleString</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">shuffleString</span> que recebe um parâmetro chamado <span class="contrast">text</span> do tipo <span class="contrast">string</span> e retorna uma <span class="contrast">string</span> com o valor do parâmetro "embaralhado".</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">'Plantae'   => 'aelatnP'</p>
+                    <p class="text-blue">'ok'        => 'ko'</p>
                 </section>
 
                 <h3>wordReverse</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">wordReverse</span> que recebe um parâmetro chamado <span class="contrast">text</span> do tipo <span class="contrast">string</span> contendo várias palavras separadas por espaço e retorne uma <span class="contrast">string</span> com as palavras invertidas de trás para frente;</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">'Hello World' => 'World Hello'</p>
                 </section>
 
                 <h3>extractNumber</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">extractNumber</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">string</span> e retorna um <span class="contrast">number</span> extraindo/eliminando todos os caracteres que não forem numéricos;</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">'oo'        => <span class="text-orange">NaN</span></p>
+                    <p class="text-blue">'57o'       => 57</p>
+                    <p class="text-blue">'n1.5'      => 1.5</p>
+                    <p class="text-blue">'n1,5'      => 15</p>
                 </section>
 
                 <h3>cleanExtraSpaces</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">cleanExtraSpaces</span> que recebe um parâmetro chamado <span class="contrast">val</span> do tipo <span class="contrast">string</span> com várias palavras separadas por um ou mais espaços e retorna uma <span class="contrast">string</span> removendo excessos de espaços;</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">'  Hello    World '              => 'Hello World'</p>
+                    <p class="text-blue">'Plantae  Gestão      Agrícola'  => 'Plantae Gestão Agrícola'</p>
                 </section>
 
                 <h3>stringWrap</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">stringWrap</span> que recebe um parâmetro chamado <span class="contrast">text</span> do tipo <span class="contrast">string</span> e outro parâmetro chamado <span class="contrast">wrapper</span> do tipo <span class="contrast">string</span> e retorna uma string que é o parâmetro text "empacotado" no meio de dois parâmetros wrapper;</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">('Teste', '*')      => '*Teste*'</p>
+                    <p class="text-blue">('Teste', 'span') => 'span Teste span'</p>
                 </section>
 
                 <h3>removeEdges</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">removeEdges</span> que recebe um parâmetro chamado <span class="contrast">text</span> do tipo <span class="contrast">string</span> e retorna a <span class="contrast">string</span> sem o primeiro e último caractere;</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">('*Teste*')      => 'Teste';</p>
+                    <p class="text-blue">('Teste')        => 'est';</p>
                 </section>
 
                 <h3>stringInitials</h3>
-                <p class="p-title"></p>
+                <p class="p-title">Faça uma função chamada <span class="contrast">stringInitials</span> que recebe um parâmetro chamado <span class="contrast">text</span> do tipo <span class="contrast">string</span> contendo várias palavras e retorna uma <span class="contrast">string</span> extraindo apenas o primeiro caractere de cada palavra em caixa alta;</p>
 
                 <section>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
-                    <p class="text-blue"></p>
+                    <p class="text-blue">'Plantae gestão agrícola' => 'PGA';</p>
                 </section>
 
+                <h2>> Array</h2>
+
+                <h3>arrayResize</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">arrayResize</span> que recebe um parâmetro chamado <span class="contrast">list</span> do tipo <span class="contrast">array</span> e outro parâmetro chamado <span class="contrast">size</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">array</span> contendo os primeiros itens do parâmetro <span class="contrast">list</span> limitados pelo tamanho do parâmetro <span class="contrast">size</span>;</p>
+
+                <section>
+                    <p class="text-blue">([1, 10, 8, 15, 4, 3, 2], 5)   => [1, 10, 8, 15, 4]</p>
+                    <p class="text-blue">([1, 10, 'ok', 8, 3, 2], 3)    => [1, 10, 'ok']</p>
+                </section>
+
+                <h3>getArrayRange</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">getArrayRange</span> que recebe dois parâmetros chamados <span class="contrast">begin</span> e <span class="contrast">end</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">array</span> com a sequência de números entre os dois parâmetros informados de forma inclusiva;</p>
+
+                <section>
+                    <p class="text-blue">(0, 4)  => [0, 1, 2, 3, 4]</p>
+                    <p class="text-blue">(4, -2) => [4, 3, 2, 1, 0, -1, -2]</p>
+                </section>
+
+                <h3>arraySumnumber</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">arraySum</span> que recebe um parâmetro chamado <span class="contrast">list</span> do tipo <span class="contrast">array</span> e retorna um <span class="contrast">number</span> que é a soma de todos os números do array, outros tipos além de números enviados junto com a lista devem ser ignorados e removidos do cálculo;</p>
+
+                <section>
+                    <p class="text-blue">[1, 3, 4]      => 8</p>
+                    <p class="text-blue">[3, 'ok', 4]   => 7</p>
+                    <p class="text-blue">[1, true, 3]   => 4</p>
+                </section>
+
+                <h3>arrayAvg</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">arrayAvg</span> que recebe um parâmetro chamado <span class="contrast">list</span> do tipo <span class="contrast">array</span> e retorna um <span class="contrast">number</span> que é a média de todos os números do array, outros tipos além de números enviados junto com a lista devem ser ignorados e removidos do cálculo;</p>
+
+                <section>
+                    <p class="text-blue">[7, 5, 6, 8]    => 6.5</p>
+                    <p class="text-blue">[18, 'ok', 4]   => 11</p>
+                    <p class="text-blue">[10, true, 2]   => 6</p>
+                </section>
+
+                <h3>filterOddNumbers</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">filterOddNumbers</span> que recebe um parâmetro chamado <span class="contrast">list</span> do tipo <span class="contrast">array</span> e retorna um <span class="contrast">array</span> apenas com os números ímpares do parâmetro <span class="contrast">list</span>, outros tipos além de números enviados junto com a lista devem ser ignorados e removidos do cálculo;</p>
+
+                <section>
+                    <p class="text-blue">[1, 5, 6, 7, 8]    => [1, 5, 7]</p>
+                </section>
+
+                <h3>groupByOddEven</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">groupByOddEven</span> que recebe um parâmetro chamado <span class="contrast">list</span> do tipo <span class="contrast">array</span> e retorna um <span class="contrast">object</span> com duas chaves, uma chamada <span class="contrast">odd</span> contendo um <span class="contrast">array</span> com os números ímpares e outra chave chamada <span class="contrast">even</span> com os números pares, outros tipos além de números enviados junto com a lista devem ser ignorados e removidos do cálculo;</p>
+
+                <section>
+                    <p class="text-blue">[1, 2, 3, 4, 5, 6, 7] =></p>
+                    <p class="text-blue">{</p>
+                    <p class="text-blue space">odd: [1, 3, 5, 7],</p>
+                    <p class="text-blue space">even: [2, 4, 6]</p>
+                    <p class="text-blue">}</p>
+                </section>
+
+                <h3>groupByInitials</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">groupByInitials</span> que recebe um parâmetro chamado <span class="contrast">list</span> do tipo <span class="contrast">array</span> e retorna um <span class="contrast">object</span> com as <span class="contrast">strings</span> agrupadas pela letra inicial, outros tipos além de strings enviados junto com a lista devem ser ignorados e removidos;</p>
+
+                <section>
+                    <p class="text-blue">['Plantae', 'Gestão', 'Agrícola', 'Análise', 'Solo', 'Plantas', 'Armazenagem'] =></p>
+                    <p class="text-blue">{</p>
+                    <p class="text-blue space">a: ['Agrícola', 'Análise', 'Armazenagem'],</p>
+                    <p class="text-blue space">g: ['Gestão'],</p>
+                    <p class="text-blue space">p: ['Plantae', 'Plantas']</p>
+                    <p class="text-blue space">s: ['Solo']</p>
+                    <p class="text-blue">}</p>
+                </section>
+
+                <h2>> Object</h2>
+
+                <h3>currentDate</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">currentDate</span> que não recebe parâmetros e retorna a data atual no formato: <span class="contrast">DD/MM/YYYY</span>;</p>
+
+                <section>
+                    <p class="text-blue">()  => `24/02/2022`</p>
+                </section>
+
+                <h3>isLeapYear</h3>
+                <p class="p-title">Faça uma função chamada <span class="contrast">isLeapYear</span> que recebe um parâmetro chamado <span class="contrast">year</span> do tipo <span class="contrast">number</span> e retorna um <span class="contrast">boolean</span> indicando se o ano for bisexto;</p>
+
+                <section>
+                    <p class="text-blue">2022    => false</p>
+                    <p class="text-blue">2020    => true</p>
+                    <p class="text-blue">1122    => false</p>
+                    <p class="text-blue">400     => true</p>
+                </section>
             </section>
         </article>
     </main>
+    <footer>
+        <section>
+            <h3>© 2022 Musbah Saleh</h3>
+        </section>
+    </footer>
     <script type="module" src="controler.js"></script>
 </body>
 </html>

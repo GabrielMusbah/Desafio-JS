@@ -101,11 +101,27 @@ main article section section .text-blue {
     color: #5fa7ef;
 }
 
+main article section section .text-orange {
+    color: #f09451;
+}
+
 .contrast {
     background-color: #3c434d;
     padding: 0.2em 0.4em;
     border-radius: 6px;
     font-size: 85%;
     font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer section {
+    width: 80%;
+    text-align: center;
+    border-top: 2px solid #2d333b;
+    padding: 20px;
 }
 
